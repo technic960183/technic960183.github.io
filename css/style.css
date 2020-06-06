@@ -11355,15 +11355,15 @@ h5,
 }
 
 .btn.btn-primary {
-  background: #f05d23;
-  border: 1px solid #f05d23;
+  background: #ffc107;
+  border: 1px solid #ffc107;
   color: #fff;
 }
 
 .btn.btn-primary:hover {
-  border: 1px solid #f05d23;
+  border: 1px solid #ffc107;
   background: transparent;
-  color: #f05d23;
+  color: #ffc107;
 }
 
 .btn.btn-primary.btn-outline-primary {
