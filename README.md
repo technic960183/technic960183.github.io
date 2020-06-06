@@ -1,40 +1,40 @@
-## Welcome to GitHub Pages
+# 個人網頁製作紀錄
 
-You can use the [editor on GitHub](https://github.com/technic960183/technic960183.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## 介紹
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+&emsp;&emsp;模板是從colorlib上下載的：https://colorlib.com/wp/template/elen/
 
-### Markdown
+註：原先我是想自己製作一個特人網頁，不過要從零開始時在有些困難，且我對個人網頁要如何排版，一直沒有一個明確的想法，只知道自己想在網頁中加入什麼元素，所以在交作業的最後關頭改使用模板去修改，而自己做的網頁依然會當作未完成的作品放在這個網頁中(在過程中我有大致記錄我看過那些教學影片合作過什麼樣的練習，檔案放在網站連結中。)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 修改/增加部分
 
-```markdown
-Syntax highlighted code block
+&emsp;&emsp;這個模板看似漂亮，但實則缺失許多功能（或許翉來就不該有），所以我作了一些修改，如下：
 
-# Header 1
-## Header 2
-### Header 3
+1. 在 About 中加入 Introducation 的文字描述。
+   原因是我認為這些文字對我而言是最好的標籤，在我還沒有學術研究結果前，我希望別人不是把我看做一個只會物理的的理科人，而是有更多故事的人。
+2. footer 中聯絡資訊在按下後會有超連結。
 
-- Bulleted
-- List
+-   電話可以接撥出
+-   信件可以直接撰寫
+-   地圖會跳出另一個視窗顯示。
 
-1. Numbered
-2. List
 
-https://colorlib.com/wp/template/elen/
-https://codepen.io/alanhouser/pen/aErrQJ
+3. contact me 的區塊中可以直接撰寫信件內容。
+   Send message 的按鈕無實際功能，即使在表格中填入任何訊息也不會將它紀錄下來，或者傳送到寄件的畫面。所以我自己寫了個 js，使按下按鈕後有現在的功能。
+4. 在 ressume 中加入照片點綴
+5. 在 project 中加入自己正在製作的個人網頁[個人網頁](url)
 
-**Bold** and _Italic_ and `Code` text
+## 還未解決的問題
 
-[Link](url) and ![Image](src)
-```
+&emsp;&emsp;這個模板的 RWD 做的不是很好，有些地方會出現問題。
+如：
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1. 調整網頁大小(在手機模式時)時，home 中的菱形筐會擋到後面的文字
+   [問題一](/images/problem/1.png)
 
-### Jekyll Themes
+## 參考資料
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/technic960183/technic960183.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+&emsp;&emsp;
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-模板：https://colorlib.com/wp/template/elen/
+-時間軸：https://codepen.io/alanhouser/pen/aErrQJ
