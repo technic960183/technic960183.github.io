@@ -190,7 +190,7 @@
  	$(document).ready(function () {
  		$("#gotoAbout").click(function () {
  			$("html,body").animate({
- 				scrollTop: $("#timeline-section").offset().top
+ 				scrollTop: $("#Info-section").offset().top
  			}, 400);
  		});
  	});

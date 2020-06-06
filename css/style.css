@@ -11430,6 +11430,7 @@ h5,
 }
 
 .blog-entry .text .category {
+  color: #cc9900;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
